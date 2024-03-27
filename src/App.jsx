@@ -14,7 +14,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
+    <div className=' w-[100%] overflow-hidden '>
       <NavBar/>
       <HeroSection/>
       <SecondSection/>
